@@ -19,7 +19,7 @@ class Band {
         this.musicians = [];
     }
 
-//This makes sure that onlt instances of the Musician class can be added.
+//This makes sure that only instances of the Musician class can be added.
     addMusician(musician){
         if(musician instanceof Musician) {
             this.musicians.push(musician);
